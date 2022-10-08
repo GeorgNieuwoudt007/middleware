@@ -10,22 +10,19 @@
     <packaging>jar</packaging>
     <description>Middleware</description>
 
+    <modules>
+        <module>keycloak</module>
+    </modules>
+
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <utilities.version>1.0.0-SNAPSHOT</utilities.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>nl.georg.utilities</groupId>
-            <artifactId>utilities</artifactId>
-            <version>${utilities.version}</version>
-        </dependency>
-    </dependencies>
+    <dependencies/>
 
     <dependencyManagement>
         <dependencies/>
