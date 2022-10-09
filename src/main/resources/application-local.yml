@@ -3,11 +3,11 @@ spring:
     name: middleware-database-postgres
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: keycloak
+    username: postgres
     url: jdbc:postgresql://localhost:5432/keycloakdb?CASE_INSENSITIVE_IDENTIFIERS=TRUE
     hikari:
       schema: keycloakdb
-    password: keycloak
+    password: postgres
   sql:
     init:
       mode: ALWAYS
