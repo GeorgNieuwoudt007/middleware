@@ -26,6 +26,7 @@
 
     <modules>
         <module>utilities</module>
+        <module>database-postgres</module>
     </modules>
 
     <properties>
