@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: middleware-database-postgres
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: keycloak
+    url: jdbc:postgresql://localhost:5432/keycloakdb?CASE_INSENSITIVE_IDENTIFIERS=TRUE
+    hikari:
+      schema: keycloakdb
+    password: keycloak
+  sql:
+    init:
+      mode: ALWAYS
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 100
+        order_updates: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
