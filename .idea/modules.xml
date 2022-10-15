@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/database-postgres/database-postgres.iml" filepath="$PROJECT_DIR$/database-postgres/database-postgres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/key-cloak/docker.iml" filepath="$PROJECT_DIR$/key-cloak/docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/middleware.iml" filepath="$PROJECT_DIR$/.idea/middleware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
+    </modules>
+  </component>
+</project>
